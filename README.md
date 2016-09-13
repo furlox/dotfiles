@@ -16,5 +16,5 @@ My starting point was a fresh install of i3 on archlinux.
  patch to use the file as is, or you can manually transcribe the colors (if you want to).
 * weechat -  You need to configure bitlbee for steam/gmail/facebook access. The custom plugin in `.weechat/python` is
  probably not useful for you, it can be loaded to accept song requests through
- any irc channel with the format `MPDPLAY<name>`
+ any irc channel with the format `MPDPLAY <name>`
 * i3status - Print mpd song (if running), check inboxes for unread mail, local calendar date and time.
