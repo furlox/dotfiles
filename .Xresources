@@ -2,9 +2,9 @@
 ! Envy Code R basically everywhere
 !
 ! Urgent on bell is required as it
-! changes makes i3 highlight your
-! irc workspace whenever a terminal
-! in that workspace generates a bell.
+! makes i3 highlight your irc workspace
+! whenever a terminal in that workspace
+! generates a bell.
 *font: xft: Envy Code R:style=Regular:pixelsize=18
 *boldFont: xft: Envy Code R:style=Regular:pixelsize=18
 *dpi: 96
