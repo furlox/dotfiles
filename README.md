@@ -1,5 +1,5 @@
 # About
-These are my current dotfiles. Here's how the setup looks.
+These are my current dotfiles. Here's how the setup looks. [Fullscreen](http://i.imgur.com/dgV6Re8.png)
 
 ![Screenshot](http://i.imgur.com/dgV6Re8.png)
 
