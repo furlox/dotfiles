@@ -1,10 +1,11 @@
 # About
 These are my current dotfiles. Here's how the setup looks. [Fullscreen](http://i.imgur.com/dgV6Re8.png)
 
-![Screenshot](http://i.imgur.com/dgV7Re8.png)
+![Screenshot](https://camo.githubusercontent.com/652b42ee3ccce4706be8578ffff1db4dd930c48a/687474703a2f2f692e696d6775722e636f6d2f646756365265382e706e67)
 
 Update: I'm now using a terminal colorscheme with "logical" colors for now, use
-the diff file if you want the blue version in screenshot.
+the diff file if you want the blue version in screenshot. Thanks for nuking the
+original scrot, imgur.
 
 ## Piecing it together
 My starting point was a fresh install of i3 on archlinux.
