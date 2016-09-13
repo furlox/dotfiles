@@ -1,0 +1,62 @@
+# Key binds
+bind index r imap-fetch-mail
+# Switch between inboxes
+macro index <f5> '<sync-mailbox><enter-command>source ~/.mutt/account-furloxmod-rc<enter><change-folder>!<enter>'
+macro index <f6> '<sync-mailbox><enter-command>source ~/.mutt/account-nhar-rc<enter><change-folder>!<enter>'
+# Set urxvt title so we can map to workspace 4
+set ts_enabled=yes
+# Set vim as editor for composing
+set editor="vim -c 'set spell spelllang=en'"
+# Don't ask to recall drafts
+set recall=no
+# Display headers while editing
+set edit_headers
+# Don't wrap mid-word
+set smart_wrap
+# Retain lines from previous page for context
+set pager_context=5
+# Status bar on top
+set status_on_top
+# Sort by newest mail on top
+set sort=threads
+set sort_browser=reverse-date
+set sort_aux=reverse-last-date-received
+# Enable TLS
+set ssl_starttls=yes
+set ssl_force_tls=yes
+# Load furlox.mod inbox by default
+source "~/.mutt/account-furloxmod-rc"
+# Misc. Mutt files
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+set move = no
+set imap_keepalive = 900
+# Color configuration
+color normal	white default
+color attachment brightyellow default
+color hdrdefault yellow default
+color indicator black red
+color markers	brightred default
+color quoted	green default
+color signature brightblack default
+color status	yellow default
+color tilde	red default
+color tree	red default
+
+color index	red default ~D
+color index	magenta default ~T
+
+#color header	brightgreen black ^From:
+#color header	brightyellow black ^To:
+#color header	brightyellow black ^Reply-To:
+#color header	brightyellow black ^Cc:
+#color header	brightblue black ^Subject:
+
+color body	red default [\-\.+_a-zA-Z0-9]+@[\-\.a-zA-Z0-9]+
+# identifies email addresses
+
+color body	red default (https?|ftp)://[\-\.,/%~_:?&=\#a-zA-Z0-9]+
+# identifies URLs
+
+color index black red "~U"
