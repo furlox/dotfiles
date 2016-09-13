@@ -1,6 +1,6 @@
 # About
 These are my current dotfiles. Here's how the setup looks. [Old Version](https://camo.githubusercontent.com/652b42ee3ccce4706be8578ffff1db4dd930c48a/687474703a2f2f692e696d6775722e636f6d2f646756365265382e706e67) 
-| [Current] (http://i.imgur.com/20q0dd7.png)
+| [Current] (http://i.imgur.com/20q0dd7.png) (The primary font being used is a bitmap font, so the images are best viewed at 100% zoom.)
 
 ![Screenshot](http://i.imgur.com/20q0dd7.png)
 
