@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Envy Code R:pixelsize=13:antialias=false:autohint=true:hintystyle=hintfull";
+static char font[] = "Envy Code R:pixelsize=13:antialias=false:autohint=true:hintystyle=hintslight";
 static int borderpx = 0;
 
 /*
@@ -87,28 +87,26 @@ static const int alpha = 0x00;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
+	/* Muzieca Pastel White */
 	/* 8 normal colors */
 	"#000000",
-	"#5f87af",
-	"#222222",
-	"#444444",
-	"#666666",
-	"#666666",
-	"#888888",
-	"#888888",
-
+	"#b76969",
+	"#719d72",
+	"#909858",
+	"#68668f",
+	"#966894",
+	"#688891",
+	"#8e8e8e",
 	/* 8 bright colors */
-	"#5f87af",
-	"#5f87af",
-	"#222222",
-	"#444444",
-	"#666666",
-	"#666666",
-	"#888888",
-	"#888888",
-
+	"#494949",
+	"#b87e8e",
+	"#839d84",
+	"#919864",
+	"#73718f",
+	"#987397",
+	"#758c93",
+	"#aeaeae",
 	[255] = 0,
-
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#000000",
