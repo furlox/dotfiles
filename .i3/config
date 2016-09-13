@@ -35,10 +35,10 @@ bar {
 	colors {
 		background #000000
 		statusline #d0d0d0
-		focused_workspace	#5f87af #5f87af #ffffff
-		active_workspace	#37b349 #37b349 #ffffff
+		focused_workspace	#909858 #909858 #ffffff
+		active_workspace	#966894 #966894 #ffffff
 		inactive_workspace	#000000 #000000 #808080
-		urgent_workspace	#eb008a #eb008a #ffffff
+		urgent_workspace	#b76969 #b76969 #ffffff
 	}
 }
 # WORKSPACE ASSIGNMENT
